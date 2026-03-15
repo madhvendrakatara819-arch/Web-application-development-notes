@@ -1,0 +1,837 @@
+
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>[12:29 pm, 15/03/2026] badmosh bharatpur😈😈👿: 
+
+
+
+
+<title>WAD Notes - Madhvendra</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+header{
+background:#020617;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+}
+
+.container{
+display:flex;
+}
+
+.sidebar{
+width:280px;
+background:#1e293b;
+height:100vh;
+overflow:auto;
+padding:20px;
+}
+
+.sidebar h3{
+text-align:center;
+color:#38bdf8;
+}
+
+.sidebar li{
+list-style:none;
+padding:10px;
+margin:8px 0;
+background:#334155;
+border-radius:6px;
+cursor:pointer;
+}
+
+.sidebar li:hover{
+background:#475569;
+}
+
+.content{
+flex:1;
+padding:40px;
+}
+
+.note{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px black;
+}
+
+.note h2{
+text-align:center;
+color:#38bdf8;
+}
+
+.note p{
+line-height:1.8;
+}
+
+pre{
+background:#020617;
+padding:15px;
+border-radius:6px;
+overflow:auto;
+}
+
+</style>
+
+
+
+
+
+<header>
+
+<h1>Web Application Development Notes</h1>
+<p>Prepared by Madhvendra</p>
+
+</header>
+
+
+<div class="container">
+
+<div class="sidebar">
+
+<h3>UNIT 2 - HTML</h3>
+
+<ul>
+<li onclick="show(&#39;intro_html&#39;)">Introduction to HTML</li>
+<li onclick="show(&#39;elements&#39;)">HTML Elements</li>
+<li onclick="show(&#39;semantics&#39;)">HTML Semantics</li>
+<li onclick="show(&#39;doctype&#39;)">HTML5 Document Type</li>
+<li onclick="show(&#39;structure_tags&#39;)">New Structure Tags</li>
+<li onclick="show(&#39;hyperlinks&#39;)">Hyperlinks</li>
+<li onclick="show(&#39;tables&#39;)">HTML Tables</li>
+<li onclick="show(&#39;forms&#39;)">HTML Forms</li>
+<li onclick="show(&#39;images&#39;)">Images in HTML</li>
+<li onclick="show(&#39;website_dev&#39;)">Website Development</li>
+</ul>
+
+<h3>UNIT 3 - CSS</h3>
+
+<ul>
+<li onclick="show(&#39;css_intro&#39;)">Understanding Style Sheets</li>
+<li onclick="show(&#39;css_syntax&#39;)">CSS Syntax</li>
+<li onclick="show(&#39;css_types&#39;)">Types of CSS</li>
+<li onclick="show(&#39;selectors&#39;)">CSS Selectors</li>
+<li onclick="show(&#39;backgrounds&#39;)">Styling Backgrounds</li>
+<li onclick="show(&#39;box_model&#39;)">CSS Box Model</li>
+<li onclick="show(&#39;flexbox&#39;)">Flexbox Layout</li>
+<li onclick="show(&#39;grid&#39;)">Grid Layout</li>
+</ul>
+
+<h3>UNIT 4 - JavaScript</h3>
+
+<ul>
+<li onclick="show(&#39;js_intro&#39;)">Introduction to JavaScript</li>
+<li onclick="show(&#39;variables&#39;)">JavaScript Variables</li>
+<li onclick="show(&#39;declare&#39;)">Declaring Variables</li>
+<li onclick="show(&#39;datatypes&#39;)">JavaScript Data Types</li>
+</ul>
+
+</div>
+
+
+<div class="content" id="content">
+
+<div class="note">
+
+<h2>HTML Images</h2>
+
+<p>
+Images are used in web pages to display visual content. HTML provides the img tag to insert images into a webpage.
+</p>
+
+<p>
+The src attribute specifies the path of the image file while the alt attribute provides alternative text if the image cannot be displayed.
+</p>
+
+<pre><img src="./index_files/image.jpg" alt="Sample Image">
+</pre>
+
+</div>
+
+</div>
+
+</div>
+
+
+<script>
+
+function show(topic){
+
+let text="";
+
+
+if(topic=="intro_html"){
+
+text=`
+
+<div class="note">
+
+<h2>Introduction to HTML</h2>
+
+<p>
+HTML stands for HyperText Markup Language. It is the standard language used to create and structure web pages on the Internet. HTML provides the basic framework of a webpage by defining elements such as headings, paragraphs, images, links and tables.
+</p>
+
+<p>
+HTML uses tags to describe the structure of the content. These tags tell the browser how the content should be displayed. For example the p tag defines a paragraph while the h1 tag defines a heading.
+</p>
+
+<p>
+HTML works together with CSS and JavaScript. HTML creates the structure of the webpage, CSS is used to design the appearance of the page and JavaScript adds interactivity to the website.
+</p>
+
+<p>
+Modern HTML is known as HTML5 which supports multimedia elements such as audio, video and new layout tags for better webpage design.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="elements"){
+
+text=`
+
+<div class="note">
+
+<h2>HTML Elements</h2>
+
+<p>
+HTML elements are the building blocks of web pages. An HTML element usually consists of a start tag, content and an end tag. These elements define the structure and meaning of the content inside a webpage.
+</p>
+
+<p>
+For example headings, paragraphs, images, lists and tables are all HTML elements. Each element tells the browser how the content should be displayed to the user.
+</p>
+
+<p>
+Elements can also contain attributes which provide additional information about the element such as id, class, style and src.
+</p>
+
+<pre>
+<p>This is a paragraph element</p>
+</pre>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="semantics"){
+
+text=`
+
+<div class="note">
+
+<h2>HTML Semantics</h2>
+
+<p>
+Semantic HTML means using HTML tags that clearly describe the meaning of the content. These tags help browsers and search engines understand the structure of the webpage.
+</p>
+
+<p>
+Examples of semantic tags include header, footer, article, section and nav. These tags provide better readability and improve search engine optimization.
+</p>
+
+<p>
+Using semantic HTML also helps developers organize the webpage in a logical and meaningful way.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="doctype"){
+
+text=`
+
+<div class="note">
+
+<h2>HTML5 Document Type</h2>
+
+<p>
+The HTML5 document type declaration is written as <!DOCTYPE html>. It tells the browser that the webpage is written in HTML5.
+</p>
+
+<p>
+This declaration ensures that the browser renders the webpage in standard mode rather than compatibility mode.
+</p>
+
+<p>
+An HTML5 document usually contains the html, head and body tags which define the structure of the webpage.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="structure_tags"){
+
+text=`
+
+<div class="note">
+
+<h2>New Structure Tags in HTML5</h2>
+
+<p>
+HTML5 introduced several new structure tags that help organize the layout of a webpage. These tags include section, nav, article and aside.
+</p>
+
+<p>
+The section tag defines a thematic section of content. The nav tag is used to define navigation links.
+</p>
+
+<p>
+The article tag represents independent content such as blog posts or news articles. The aside tag contains additional content like sidebars or advertisements.
+</p>
+
+<p>
+These tags improve readability and make webpages more structured.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="hyperlinks"){
+
+text=`
+
+<div class="note">
+
+<h2>Hyperlinks</h2>
+
+<p>
+Hyperlinks are used to connect one webpage to another webpage or resource. They allow users to navigate between different pages on the Internet.
+</p>
+
+<p>
+Hyperlinks are created using the anchor tag. The href attribute specifies the destination address of the link.
+</p>
+
+<pre>
+<a href="https://www.google.com">Visit Google</a>
+</pre>
+
+<p>
+Hyperlinks are essential for website navigation and are widely used in web development.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="tables"){
+
+text=`
+
+<div class="note">
+
+<h2>HTML Tables</h2>
+
+<p>
+HTML tables are used to display data in rows and columns. Tables are useful for organizing structured information such as schedules, reports and records.
+</p>
+
+<p>
+Tables are created using table, tr, th and td tags. The tr tag represents a table row, th represents table header and td represents table data.
+</p>
+
+<p>
+HTML tables can also include borders, spacing and styling using CSS.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="forms"){
+
+text=`
+
+<div class="note">
+
+<h2>HTML Forms</h2>
+
+<p>
+HTML forms are used to collect user input on a website. Forms allow users to enter information such as names, emails and passwords.
+</p>
+
+<p>
+Forms contain various input elements like text fields, radio buttons, checkboxes and submit buttons.
+</p>
+
+<p>
+After the user submits the form, the data can be sent to a server for processing or storage.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="images"){
+
+text=`
+
+<div class="note">
+
+<h2>HTML Images</h2>
+
+<p>
+Images are used in web pages to display visual content. HTML provides the img tag to insert images into a webpage.
+</p>
+
+<p>
+The src attribute specifies the path of the image file while the alt attribute provides alternative text if the image cannot be displayed.
+</p>
+
+<pre>
+<img src="image.jpg" alt="Sample Image">
+</pre>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="website_dev"){
+
+text=`
+
+<div class="note">
+
+<h2>Development of Website and Webpage</h2>
+
+<p>
+Website development is the process of creating and maintaining websites. It involves planning, designing and building web pages using HTML, CSS and JavaScript.
+</p>
+
+<p>
+The first step in website development is planning which includes deciding the purpose of the website and organizing the content.
+</p>
+
+<p>
+Next is navigation and theme design which ensures that users can easily move between pages.
+</p>
+
+<p>
+Finally developers create webpages and test them to ensure proper functionality.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="css_intro"){
+
+text=`
+
+<div class="note">
+
+<h2>Understanding Style Sheets</h2>
+
+<p>
+CSS stands for Cascading Style Sheets. It is used to control the presentation and layout of web pages.
+</p>
+
+<p>
+CSS allows developers to change colors, fonts, spacing and positioning of elements on a webpage.
+</p>
+
+<p>
+It separates the design from the structure of the webpage which makes websites easier to maintain.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="css_syntax"){
+
+text=`
+
+<div class="note">
+
+<h2>CSS Syntax</h2>
+
+<p>
+CSS syntax consists of selectors and declaration blocks. A selector targets the HTML element that will be styled.
+</p>
+
+<p>
+The declaration block contains properties and values which define the appearance of the element.
+</p>
+
+<pre>
+h1{
+color:blue;
+font-size:30px;
+}
+</pre>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="css_types"){
+
+text=`
+
+<div class="note">
+
+<h2>Types of CSS</h2>
+
+<p>
+CSS can be applied in three ways: Inline CSS, Internal CSS and External CSS.
+</p>
+
+<p>
+Inline CSS is written inside HTML tags. Internal CSS is written inside the style tag in the head section.
+</p>
+
+<p>
+External CSS is written in a separate file and linked to the HTML document. This method is most commonly used in large websites.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="selectors"){
+
+text=`
+
+<div class="note">
+
+<h2>CSS Selectors</h2>
+
+<p>
+CSS selectors are used to select the HTML elements that you want to style. They allow developers to apply styles to specific elements.
+</p>
+
+<p>
+Common selectors include element selectors, class selectors and ID selectors.
+</p>
+
+<p>
+Selectors make styling more organized and efficient.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="backgrounds"){
+
+text=`
+
+<div class="note">
+
+<h2>Styling Backgrounds</h2>
+
+<p>
+CSS allows developers to style the background of web pages. Backgrounds can include colors, images and gradients.
+</p>
+
+<p>
+Properties such as background-color, background-image and background-size control the appearance of backgrounds.
+</p>
+
+<p>
+Background styling improves the visual design of websites.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="box_model"){
+
+text=`
+
+<div class="note">
+
+<h2>CSS Box Model</h2>
+
+<p>
+The CSS box model describes how elements are displayed on a webpage.
+</p>
+
+<p>
+Each element consists of content, padding, border and margin. These components determine the size and spacing of elements.
+</p>
+
+<p>
+Understanding the box model is essential for designing layouts.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="flexbox"){
+
+text=`
+
+<div class="note">
+
+<h2>Flexbox Layout</h2>
+
+<p>
+Flexbox is a modern CSS layout system used to arrange elements in rows or columns.
+</p>
+
+<p>
+It provides easy alignment and spacing of elements inside a container.
+</p>
+
+<p>
+Flexbox is widely used for responsive web design.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="grid"){
+
+text=`
+
+<div class="note">
+
+<h2>Grid Layout</h2>
+
+<p>
+CSS Grid is a powerful layout system that allows developers to create complex two dimensional layouts.
+</p>
+
+<p>
+Grid uses rows and columns to arrange elements on a webpage.
+</p>
+
+<p>
+It is commonly used for building modern responsive website layouts.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="js_intro"){
+
+text=`
+
+<div class="note">
+
+<h2>Introduction to JavaScript</h2>
+
+<p>
+JavaScript is a scripting language used to make web pages interactive. It is one of the core technologies of the web along with HTML and CSS.
+</p>
+
+<p>
+JavaScript allows developers to create dynamic features such as form validation, animations, popups and interactive buttons.
+</p>
+
+<p>
+It runs directly in the web browser and works with all major browsers.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="variables"){
+
+text=`
+
+<div class="note">
+
+<h2>JavaScript Variables</h2>
+
+<p>
+Variables are containers used to store data values in JavaScript. These values can be numbers, text or other types of data.
+</p>
+
+<p>
+Variables help developers store information that can be used later in the program.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="declare"){
+
+text=`
+
+<div class="note">
+
+<h2>Declaring Variables</h2>
+
+<p>
+Variables in JavaScript are created using the var, let or const keywords.
+</p>
+
+<pre>
+var x = 10;
+let name = "Madhvendra";
+</pre>
+
+<p>
+Declaring variables allows developers to store values and use them in calculations or logic.
+</p>
+
+</div>
+
+`;
+
+}
+
+
+if(topic=="datatypes"){
+
+text=`
+
+<div class="note">
+
+<h2>JavaScript Data Types</h2>
+
+<p>
+JavaScript supports different types of data such as numbers, strings and boolean values.
+</p>
+
+<p>
+Numbers are used for mathematical calculations. Strings are used to represent text and must be written inside quotation marks.
+</p>
+
+<p>
+Boolean values represent true or false conditions used in logical operations.
+</p>
+
+</div>
+
+`;
+
+}
+
+document.getElementById("content").innerHTML=text;
+
+}
+
+</script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+</body></html>
